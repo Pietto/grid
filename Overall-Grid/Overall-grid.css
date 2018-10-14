@@ -95,6 +95,15 @@ ul li{
 	height: 190px;
 	width: 300px;
 }
+#image-da-tweekaz{
+	height: 320px;
+	width: 550px;
+}
+.cloth-content{
+	height: 210px;
+	width: 230px;
+	margin-top:30px;
+}
 .content4{
 	grid-column: 1 / 3 ;
 	grid-row: 3 /;
@@ -128,19 +137,15 @@ h1{
 #businesstalk{
 	padding-left:200px;	
 }
-a:link{
+a{
 	text-decoration: none;
-	color:#0079d1;
 }
-a:visited{
-	text-decoration: none;
+a:link, a:visited{
 	color:#0079d1;
 }
 a:hover{
-	text-decoration: none;
 	color:#3aacff;
 }
 a:active{
-	text-decoration: none
-	color:#000000;
+	color:#0046b7;
 }
