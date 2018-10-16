@@ -6,6 +6,7 @@ h1{
 	padding:10px;
 	font-size: 26px;
 	line-height: 30px;
+	margin-top: 0px;
 }
 p{
 	font-size: 14px;
@@ -19,11 +20,14 @@ ul{
 ul li{
 	display: inline-block;
 	color: #0079d1;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-right: 25px;
+		text-align: center;
 }
 .grid-container {
 	background-color: white;
   	display: grid;
-  	grid-template-columns:auto auto auto auto;  
   	grid-gap: 0px;
   	width: 1100px;
   	margin: auto auto;
@@ -130,9 +134,6 @@ ul li{
 .content9{
 	grid-column: 4 / 7 ;
 	grid-row: 5;
-}
-h1{
-	margin-top: 0px;
 }
 #businesstalk{
 	padding-left:200px;	
